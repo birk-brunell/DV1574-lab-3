@@ -5,7 +5,6 @@
 
 def recursive_max(lst):
     """Finds Max"""
-    print("start")
     if len(lst) == 0:
         print("Empty List")
         return None

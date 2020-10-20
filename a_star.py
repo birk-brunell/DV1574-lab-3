@@ -20,8 +20,12 @@ def reconstruct_path(came_from, current):
 
 
 def h_score(start, goal):
-    """Calculates shortest possible theoretical path from given point (start) to the end (goal) using manhattan distance"""
-    h_score = abs(start[0] - goal[0]) + abs(start[1] - goal[1])
+    """Calculates shortest possible theoretical path from given point (start) to the end (goal)"""
+    # Manhattan distance
+    #h_score = abs(start[0] - goal[0]) + abs(start[1] - goal[1])
+
+    # Euclidian distance
+    h_score = math.sqrt((goal[0] - start[0])**2 + (goal[1] - start[1])**2)
     return h_score
 
 
