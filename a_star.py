@@ -41,7 +41,7 @@ def neighbors(current, grid):
     potential_neighbors.append(tuple([current[0], current[1] + 1]))
     potential_neighbors.append(tuple([current[0] - 1, current[1]]))
     potential_neighbors.append(tuple([current[0], current[1] - 1]))
-    print(potential_neighbors)
+    # print(potential_neighbors)
 
     # Checks if they are allowed
     for potential_neighbor in potential_neighbors:
