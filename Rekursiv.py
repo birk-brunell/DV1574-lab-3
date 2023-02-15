@@ -1,7 +1,4 @@
-# Kod skriven av Birk Brunell
-# Rekursiv labb 3
-# Estimerad tid: 30 min
-# Faktisk tid: 30 min
+
 
 def recursive_max(lst):
     """Finds Max"""
@@ -18,7 +15,6 @@ def recursive_max(lst):
 
 
 def lst_getter():
-    """etffdg"""
     try: 
         lst = [] 
         print("Input integers to add them to the list. Finish by typing something that is not an integer.")

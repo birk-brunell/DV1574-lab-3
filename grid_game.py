@@ -9,7 +9,6 @@ import a_star
 
 def read_map_from_file(file_name, grid):
     """Function for reading a map from a file and creating a matching grid"""
-
     file = None
 
     try:

@@ -1,10 +1,5 @@
 """Module for utelizing A* on a 2D grid"""
 
-# Birk Brunell DVADS20h
-# Estimerad tid 6h
-# Faktisk tid 8h
-
-
 import math
 from grid import Occupation
 from collections import defaultdict
